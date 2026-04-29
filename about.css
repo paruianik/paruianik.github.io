@@ -5,7 +5,7 @@
 
 .container{
     margin-top: 60px;
-    height: calc(100vh - 60px);
+    min-height: calc(100vh - 60px);
     width: 100vw;
     background-color:rgba(247, 238, 219, 0.8);
     display: grid;
