@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Anik Parui</title>
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./project.css">
+</head>
+<header class = "main_container">
+    <div class = "first">
+        AP
+    </div>
+    <div></div>
+    <div class = "second">
+        <div class = "box fourth">
+            <a href = "./index.html">Home</a>
+        </div>
+        <div class = "box fourth">
+            <a href = "./about.html">About</a>
+        </div>
+        <div class = "box fourth">
+            <a href = "./project.html">Project</a>
+        </div>
+        <div class = "box fourth">
+            <a href = "./skills.html">Skills</a>
+        </div>
+        <div class = "box fourth">
+            <a href = "./education.html">Education</a>
+        </div>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</header>
+<nav class="mobile-nav" id="mobile-nav">
+    <a href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./project.html">Project</a>
+    <a href="./skills.html">Skills</a>
+    <a href="./education.html">Education</a>
+</nav>
+<body>
+    <div class = "container">
+        <div class = "one">
+            Projects
+        </div>
+        <div class = "box1 two">
+            <div class = "three">
+                <img src = "./images/image colorization.png">
+            </div>
+            <div class = "four">
+                <p><b>Image Colorization</b></p>
+                <p style = "font-size: 17px;">
+                    A CNN based architecture that can convert
+                    a grayscale image into a realistic colorize image
+                    with great precision (Resulted PSNR value 48.32 dB).
+                </p>
+                <div>
+                <a href= "./image_colorization.html" class = "buttonbox" >
+                    View Details
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileNav = document.getElementById('mobile-nav');
+    hamburger.addEventListener('click', () => {
+        mobileNav.classList.toggle('open');
+    });
+</script>
+</html>
