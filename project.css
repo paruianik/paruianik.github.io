@@ -48,6 +48,16 @@ body {
     box-shadow: 0px 0px 5px black;
 }
 
+.five{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    background-color: rgba(247, 238, 219, 0.8); 
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+
 .three{
     display: flex;
     justify-content: center;
@@ -117,6 +127,12 @@ img{
         grid-row: 2/3;
         grid-column: 2/3;
         width: 100%;
+    }
+
+    .five{
+        grid-row: 2/3;
+        grid-column: 3/4;
+        width: 100%
     }
 
     img {
