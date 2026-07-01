@@ -108,7 +108,7 @@ img{
     .container {
         /* grid-template-columns: 1fr;
         grid-template-rows: auto; */
-        grid-template-rows: 1fr 4fr 4fr;
+        grid-template-rows: 1fr auto;
         grid-template-columns: 1fr 9fr 1fr;
         /* padding: 20px; */
         /* padding-top: 15px; */
@@ -130,8 +130,8 @@ img{
     }
 
     .five{
-        grid-row: 2/3;
-        grid-column: 3/4;
+        grid-row: 3/4;
+        grid-column: 2/3;
         width: 100%
     }
 
